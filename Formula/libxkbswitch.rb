@@ -6,6 +6,8 @@ class Libxkbswitch < Formula
   sha256 "1eaa3ce768db854fea26805d109890b5c369819f4215982e31cead0db0ce6506"
   license "MIT"
 
+  depends_on "xkbswitch"
+
   def install
     lib.install "libxkbswitch.dylib"
   end
